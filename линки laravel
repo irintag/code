@@ -1,0 +1,9 @@
+<?php
+$targetFolder = '/home/abctask/domeny/orix.abc-task.kz/laravel/storage'; /-------------- папка ----------------/
+
+$linkFolder = '/home/abctask/domeny/orix.abc-task.kz/storage'; /---------------  ссылка ---------------/
+
+symlink($targetFolder, $linkFolder);
+
+echo 'Done!'
+?>
